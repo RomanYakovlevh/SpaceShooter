@@ -1,6 +1,6 @@
-package demo_V2.playerController
+package playerController
 
-import java.awt.event.{KeyEvent, KeyListener, MouseEvent, MouseListener, MouseMotionListener}
+import java.awt.event._
 
 class PlayerController(pcState: PlayerControllerState) extends KeyListener with MouseMotionListener with MouseListener {
   override def keyTyped(e: KeyEvent): Unit = pcState.addKeyCommand(KeyCommand.KeyTyped(e))

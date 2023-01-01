@@ -1,4 +1,4 @@
-package demo_V2.playerController
+package playerController
 
 class PlayerControllerState(
   @volatile private var keyCommands:   List[KeyCommand],

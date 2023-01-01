@@ -1,3 +1,5 @@
+package renderers
+
 import java.awt.Graphics
 import java.awt.event.{ActionEvent, ActionListener}
 import javax.swing.JPanel
