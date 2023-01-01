@@ -1,0 +1,3 @@
+package characters
+
+class AsteroidSpawner {}
